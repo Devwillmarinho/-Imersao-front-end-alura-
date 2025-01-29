@@ -1,0 +1,127 @@
+/* HEADER */
+
+.main-container {
+  max-width: 80vw;
+  height: 100vh;
+  margin-left: 320px;
+  margin-right: 56px;
+  background-color: #121212;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.header__navigation:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header__navigation .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+  margin-right: 1.25rem;
+}
+
+.arrow-left,
+.arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--bg-icon);
+  background: linear-gradient(135deg, #1db954, #509bf5);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 48px;
+  margin-left: 8px;
+  background-color: #242424;
+  border-radius: 50px;
+  border: 1px solid #333;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.header__search:hover {
+  border-color: #1db954;
+}
+
+.header__search img {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
+
+.header__search input {
+  background: transparent;
+  border: none;
+  padding: 0px 100px 0 12px;
+  color: #ffffff;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+}
+
+.header__login .subscribe {
+  color: #a7a7a7;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  margin-right: 32px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__login .subscribe:hover {
+  color: #1db954;
+}
+
+.header__login .login {
+  width: 120px;
+  height: 48px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #1db954, #509bf5);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header__login .login:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
