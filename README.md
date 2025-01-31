@@ -1,4 +1,5 @@
 PARA RODAR A APIFAKE UTILZE NO CONSOLE: json-server --watch api-artists/artists.json --port 3000
-![image](https://github.com/user-attachments/assets/d56f672f-c7c9-4fe7-a0e8-8a7738bf18bf)
+![image](https://github.com/user-attachments/assets/c988ad15-e2f2-4479-a629-5f4bc593626f)
+
 
 
